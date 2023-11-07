@@ -1,12 +1,26 @@
+.secondCounter{
+    background-color: black;
+    height: 200px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
 
-/* 
+}
 
-    You can write your own styles here...
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+.second{
+    background-color: white;
+    width: 130px;
+    height: 170px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 70px;
+}
