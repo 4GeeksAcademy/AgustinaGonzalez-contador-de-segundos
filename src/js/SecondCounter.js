@@ -4,6 +4,8 @@ import Reloj from './Reloj'
 
 
 function SecondCounter(props) {
+   
+    
     return (
         <div className='secondCounter'>
             <div className='contenedor'>
@@ -15,6 +17,7 @@ function SecondCounter(props) {
                 <Digitos tiempo={props.decenas}/>
                 <Digitos tiempo={props.unidades}/>
             </div>
+            
         </div>
     )
 }
